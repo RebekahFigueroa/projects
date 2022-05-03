@@ -1,6 +1,36 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {  
+    font-family:'Montserrat', sans-serif; 
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+    text-align: left;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.features-heading {
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
 
 #title {
@@ -10,30 +40,6 @@ body {
 
 .container-fluid{
     padding: 3% 15% 7%;
-}
-
-h1 {  
-    font-family: 'Montserrat', sans-serif;  
-    font-size: 3.5rem;  
-    line-height: 1.5;  
-    font-weight: 900;
-}
-
-h2 {
-    font-family:'Montserrat', sans-serif; 
-    font-weight: bold;
-    font-size: 3rem;
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;  
-    font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 1.5;
-}
-
-p {
-    color: #8f8f8f
 }
 
 /* Navigation Bar */
@@ -75,7 +81,6 @@ p {
 /* Features */
 
 #features { 
-  
     padding: 7% 15%;
     background-color: white;
     position: relative;
@@ -83,7 +88,6 @@ p {
 }
 
 .feature-box {
-    text-align: center;
     padding: 4.5%;
 }
 
@@ -100,9 +104,13 @@ p {
 /* Testimonials */
 
 #testimonials {
-    text-align: center;
     background-color: #ff4c68;
     color: white
+}
+
+.testimonial.text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -117,7 +125,6 @@ p {
 
 #press {
     background-color: #ff4c68;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -130,7 +137,15 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-plan {
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
@@ -152,20 +167,17 @@ p {
 /* Call to Action */
 
 #cta {
-    text-align: center;
     background-color: #ff4c68;
     color: white
 }
 
 .cta-copy {
-    text-align: center;
     padding: 5% 15% 0 15% ;
 }
 
 /* Footer */
 
 #footer {
-    text-align: center;
     background-color: white;
 }
 
